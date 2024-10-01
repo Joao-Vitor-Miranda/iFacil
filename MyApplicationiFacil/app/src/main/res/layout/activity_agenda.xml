@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Botão para expandir -->
+        <Button
+            android:id="@+id/btnSemana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostrar Semanas"
+            android:textAllCaps="false"/>
+
+        <!-- Layout que será expandido ao clicar -->
+        <LinearLayout
+            android:id="@+id/expandableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semana 1: Informações adicionais sobre a semana 1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semana 2: Informações adicionais sobre a semana 2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semana 3: Informações adicionais sobre a semana 3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semana 4: Informações adicionais sobre a semana 4"/>
+        </LinearLayout>
+
+        <!-- Segunda-feira -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Segunda-feira"
+                android:textSize="24sp"/>
+
+            <!-- Horários para segunda-feira -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="16dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center">
+
+                <!-- Horário 7h00 às 8h40 -->
+                <TextView
+                    android:id="@+id/h1Box"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="7h00 - 8h40"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+
+                <!-- Horário 8h50 às 10h30 -->
+                <TextView
+                    android:id="@+id/h2Box"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="8h50 - 10h30"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+                <!-- Horário 10h40 às 12h20 -->
+                <TextView
+                    android:id="@+id/h3Box"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="10h40 - 12h20"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Terça-feira -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terça-feira"
+                android:textSize="24sp"/>
+
+            <!-- Horários para terça-feira -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="16dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center">
+
+                <!-- Horário 7h00 às 8h40 -->
+                <TextView
+                    android:id="@+id/h1BoxTerca"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="7h00 - 8h40"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+                <!-- Horário 8h50 às 10h30 -->
+                <TextView
+                    android:id="@+id/h2BoxTerca"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="8h50 - 10h30"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+                <!-- Horário 10h40 às 12h20 -->
+                <TextView
+                    android:id="@+id/h3BoxTerca"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="10h40 - 12h20"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Quarta-feira -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quarta-feira"
+                android:textSize="24sp"/>
+
+            <!-- Horários para quarta-feira -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="16dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center">
+
+                <!-- Horário 7h00 às 8h40 -->
+                <TextView
+                    android:id="@+id/h1BoxQuarta"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="7h00 - 8h40"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+                <!-- Horário 8h50 às 10h30 -->
+                <TextView
+                    android:id="@+id/h2BoxQuarta"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="8h50 - 10h30"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+                <!-- Horário 10h40 às 12h20 -->
+                <TextView
+                    android:id="@+id/h3BoxQuarta"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="10h40 - 12h20"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Quinta-feira -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quinta-feira"
+                android:textSize="24sp"/>
+
+            <!-- Horários para quinta-feira -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="16dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center">
+
+                <!-- Horário 7h00 às 8h40 -->
+                <TextView
+                    android:id="@+id/h1BoxQuinta"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="7h00 - 8h40"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+                <!-- Horário 8h50 às 10h30 -->
+                <TextView
+                    android:id="@+id/h2BoxQuinta"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="8h50 - 10h30"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+                <!-- Horário 10h40 às 12h20 -->
+                <TextView
+                    android:id="@+id/h3BoxQuinta"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="10h40 - 12h20"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Sexta-feira -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sexta-feira"
+                android:textSize="24sp"/>
+
+            <!-- Horários para sexta-feira -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="16dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center">
+
+                <!-- Horário 7h00 às 8h40 -->
+                <TextView
+                    android:id="@+id/h1BoxSexta"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="7h00 - 8h40"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+                <!-- Horário 8h50 às 10h30 -->
+                <TextView
+                    android:id="@+id/h2BoxSexta"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="8h50 - 10h30"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+                <!-- Horário 10h40 às 12h20 -->
+                <TextView
+                    android:id="@+id/h3BoxSexta"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="10h40 - 12h20"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Sábado -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sábado"
+                android:textSize="24sp"/>
+
+            <!-- Horários para sábado -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="16dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center">
+
+                <!-- Horário 7h00 às 8h40 -->
+                <TextView
+                    android:id="@+id/h1BoxSabado"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="7h00 - 8h40"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+                <!-- Horário 8h50 às 10h30 -->
+                <TextView
+                    android:id="@+id/h2BoxSabado"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="8h50 - 10h30"
+                    android:gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:textColor="#000000"/>
+
+                <!-- Horário 10h40 às 12h20 -->
+                <TextView
+                    android:id="@+id/h3BoxSabado"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="#ff99cc00"
+                    android:text="10h40 - 12h20"
+                    android:gravity="center"
+                    android:textColor="#000000"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

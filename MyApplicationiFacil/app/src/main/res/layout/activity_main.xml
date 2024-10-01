@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Botão para expandir o Térreo -->
+    <Button
+        android:id="@+id/btn_terreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Térreo" />
+
+    <LinearLayout
+        android:id="@+id/layout_terreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:padding="8dp"
+        android:background="#673AB7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 3" />
+    </LinearLayout>
+
+    <!-- Botão para expandir o Andar 1 -->
+    <Button
+        android:id="@+id/btn_andar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Andar 1" />
+
+    <!-- Layout expandido para Andar 1 -->
+    <LinearLayout
+        android:id="@+id/layout_andar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:padding="8dp"
+        android:background="#673AB7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 1"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 2"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 3"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <!-- Botão para expandir o Andar 2 -->
+    <Button
+        android:id="@+id/btn_andar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Andar 2" />
+
+    <!-- Layout expandido para Andar 2 -->
+    <LinearLayout
+        android:id="@+id/layout_andar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:padding="8dp"
+        android:background="#673AB7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 1"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 2"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 3"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <!-- Botão para expandir o Andar 3 -->
+    <Button
+        android:id="@+id/btn_andar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Andar 3" />
+
+    <!-- Layout expandido para Andar 3 -->
+    <LinearLayout
+        android:id="@+id/layout_andar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:padding="8dp"
+        android:background="#673AB7">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 1"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 2"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Laboratório 3"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>
